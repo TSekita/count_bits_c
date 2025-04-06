@@ -60,6 +60,6 @@ int main(void) {
     printf("Binary: 0b");
     print_binary(val);
     printf("\n");
-    printf("Number of set bitst: %d\n", count_bits(val));
+    printf("Number of set bits: %d\n", count_bits(val));
     return 0;
 }
